@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+ <sqlMap>
+  <typeAlias alias="CustomDTO" type="custom.dto.CustomDTO"/>
+   <resultMap class="CustomDTO" id="CustomMAP">
+    <result property="no" column="no" />
+    <result property="name" column="name" />
+    <result property="sex" column="sex" />
+    <result property="dept" column="dept" />
+    <result property="job" column="job" />
+    <result property="sawonnum" column="sawonnum" />
+    <result property="comm" column="comm" />
+    <result property="sal" column="sal" />
+   </resultMap>
+
+   <select id="selectAllData" resultClass="CustomDTO">
+    select * from employee order by no asc
+   </select>
+ </sqlMap>
