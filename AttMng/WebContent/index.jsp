@@ -17,6 +17,7 @@ body {
 			<a href="welcome.html">Click here to See Welcome Message... </a></h3>(to
 			check Spring MVC Controller... @RequestMapping("/welcome")) ♥
 			<br>Commit&Push Test by kjh
+			<br>Commit Test by jinhyeyoung
 	</div>
 </body>
 </html>
