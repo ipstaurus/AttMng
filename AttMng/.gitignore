@@ -67,7 +67,7 @@ local.properties
 .project
 
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
+../.classpath
 
 # Annotation Processing
 .apt_generated
@@ -126,7 +126,7 @@ $RECYCLE.BIN/
 
 
 # Personalization file
-MANIFEST.MF
-pom.properties
+*.MF
+*.properties
 
 # End of https://www.gitignore.io/api/java,windows,eclipse
