@@ -19,4 +19,9 @@ public class AttMngHelloWorld {
 				+ "<h3>IPSTAURUS - Attendance Management</h3></div>";
 		return new ModelAndView("welcome", "message", message);
 	}
+	
+	  @RequestMapping("/login") public ModelAndView joinpage() {	  
+	  return new ModelAndView("login"); 
+	  }
+
 }
