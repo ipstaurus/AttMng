@@ -23,5 +23,9 @@ public class AttMngHelloWorld {
 	  @RequestMapping("/login") public ModelAndView joinpage() {	  
 	  return new ModelAndView("login"); 
 	  }
+	  
+	  @RequestMapping("/main") public ModelAndView mainpage() {	  
+		  return new ModelAndView("main"); 
+		  }
 
 }

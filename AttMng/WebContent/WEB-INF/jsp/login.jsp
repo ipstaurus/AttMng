@@ -7,19 +7,17 @@
       text-align : left;
       height : 80%;
    }
-   #footer{
-      text-align : center;
-      padding : 10px;
-   }
+   
+   
 </style>
+<jsp:include page="/WEB-INF/common/header.jsp"></jsp:include>
 </head>
 <body>
-   <jsp:include page="/WEB-INF/common/header.jsp"></jsp:include>
    <br>
       <div id="login">
       <div style="font-family: verdana; padding: 5px; border: 1px solid red; font-size: 25px; text-align: left; height: 80%">
          <h1>ログイン</h1>
-         <table style="margin-left: auto; margin-right: auto;"> 
+         <table style="margin-left: auto; margin-right: auto; "> 
          <tr>
          <td><form:label path="id">ID</form:label>
             <td><input type = "text" id = "m_id" placeholder="ID"></td></td>
@@ -38,10 +36,9 @@
          </table> 
                 
       </div>
-      <div id="footer">
-         <jsp:include page="/WEB-INF/common/footer.jsp"></jsp:include>
-      </div>
-      </div>
    
-</body>
+	</body>
+	<footer style="margin-top: 20px">
+         <jsp:include page="/WEB-INF/common/footer.jsp"></jsp:include>    
+      </footer>
 </html>
