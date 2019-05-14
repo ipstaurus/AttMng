@@ -125,9 +125,9 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# 개인설정파일
-target/m2e-wtp/META-INF/maven/AttMng/AttMng/pom.properties
-target/m2e-wtp/META-INF/maven/MANIFEST.MF
+# Personalization file
+target/m2e-wtp/web-resources/META-INF/maven/AttMng/AttMng/pom.properties
+\AttMng\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF
 WebContent/META-INF/MANIFEST.MF
 .classpath
 
