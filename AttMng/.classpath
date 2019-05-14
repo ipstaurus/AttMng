@@ -23,4 +23,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
+
 </classpath>

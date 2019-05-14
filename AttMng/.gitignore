@@ -102,7 +102,6 @@ hs_err_pid*
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
-
 # Dump file
 *.stackdump
 
