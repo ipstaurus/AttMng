@@ -13,7 +13,7 @@
 
 	<mvc:annotation-driven />
 	<context:component-scan
-		base-package="main.java.com.ipstaurus.attmng.domin" />
+		base-package="main.java.com.ipstaurus.attmng.domain" />
 	<mvc:default-servlet-handler />
 
 	<bean id="viewResolver"
