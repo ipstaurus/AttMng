@@ -1,8 +1,9 @@
-package main.java.com.ipstaurus.attmng.domin;
+package main.java.com.ipstaurus.attmng.domain;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
 
 /*
  * author: Jin Hyeyoung
