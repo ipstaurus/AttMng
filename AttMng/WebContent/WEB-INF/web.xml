@@ -2,9 +2,9 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <display-name>CrunchifySpringMVCTutorial</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>main.jsp</welcome-file>
+    <welcome-file>main.html</welcome-file>
+    <welcome-file>main.htm</welcome-file>
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
@@ -20,7 +20,7 @@
     <servlet-mapping>
         <servlet-name>attmng</servlet-name>
         <url-pattern>/welcome.jsp</url-pattern>
-        <url-pattern>/index.jsp</url-pattern>
+        <url-pattern>/main.jsp</url-pattern>
         <url-pattern>/welcome.html</url-pattern>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
