@@ -24,5 +24,8 @@
 		<constructor-arg index="0" ref="sqlSession" />
 	</bean>
 
-	<bean id="employee" class="main.java.com.ipstaurus.attmng"></bean>
+	<bean id="login" class="main.java.com.ipstaurus.attmng.dto.EmployeeDTO">
+	<property name="id" value=""/>
+	<property name="pw" value=""/>
+	</bean>
 </beans>
