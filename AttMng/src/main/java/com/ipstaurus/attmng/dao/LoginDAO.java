@@ -1,9 +1,11 @@
 package main.java.com.ipstaurus.attmng.dao;
 
-import java.util.HashMap;
+import javax.servlet.http.HttpSession;
+
+import main.java.com.ipstaurus.attmng.dto.EmployeeDTO;
 
 public interface LoginDAO {
+	public int DuplexCheck(EmployeeDTO emp);
 
-	int loginIdentify(HashMap<String, String> hstParam);
-
+	public int LoginCheck(EmployeeDTO emp, HttpSession hSession);
 }

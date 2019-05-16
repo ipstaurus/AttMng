@@ -1,20 +1,28 @@
 package main.java.com.ipstaurus.attmng.service;
 
-/*@Service
-public class LoginServiceImpl implements LoginService{
+import javax.servlet.http.HttpSession;
 
-	@Autowired
-	LoginDAO logDAO;
+import org.springframework.stereotype.Service;
+
+import main.java.com.ipstaurus.attmng.dao.LoginDAO;
+import main.java.com.ipstaurus.attmng.dto.EmployeeDTO;
+
+@Service
+public class LoginServiceImpl implements LoginService {
+
+//	@Inject
+	LoginDAO LoginDAO;
 
 	@Override
-	public int loginCheck(HashMap<String, String> hstParam){
-
-		// TODO Auto-generated method stub
-
-		int identify = logDAO.loginIdentify(hstParam);
-
-		return identify;
-
+	public int DuplexCheck(EmployeeDTO emp) {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
 	}
 
-}*/
+	@Override
+	public int LoginCheck(EmployeeDTO emp, HttpSession hSession) {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
+	}
+
+}

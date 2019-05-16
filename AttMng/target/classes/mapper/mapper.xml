@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper">
+
+	<!-- 会員登録関連SQLクエリ -->
+
+	<insert id='Register'>
+		INSERT INTO t_employee (id, password)
+		VALUES (#{id},
+		#{password})
+	</insert>
+	<!-- ――――――――――― -->
+
+	<!-- ログイン関連SQLクエリ -->
+	<select id="DuplexCheck" resultType="int">
+		<!-- 검색을 하는데 갯수를 출력해라 MEMBER 테이블에 해당하는 테이블의 별칭은 emp으로 선언한다. -->
+		select count(*) from t_employee emp
+		<!-- 검색을 하는데 t_employee테이블에 m_id 는 매개변수로 받아온 m_id와 동일해야 한다. -->
+		where emp.id = #{id}
+		<!-- 결과 : 0이면 아이디 중복 x 1이면 중복 검색 결과가 없으면 0으로 나옴 아래는 다 생략 동일하니 -->
+	</select>
+
+	<select id="LoginCheck" resultType="int">
+		select count(*) from t_employee
+		emp
+		where emp.id = #{id} and emp.password = #{password}
+	</select>
+	<!-- ――――――――――― -->
+
+
+</mapper>
