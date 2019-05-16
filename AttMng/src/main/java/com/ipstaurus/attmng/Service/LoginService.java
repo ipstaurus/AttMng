@@ -1,5 +1,9 @@
 package main.java.com.ipstaurus.attmng.Service;
 
-public class LoginService {
+import java.util.HashMap;
+
+public interface LoginService {
+
+	public int loginCheck(HashMap<String, String> hstParam);
 
 }
