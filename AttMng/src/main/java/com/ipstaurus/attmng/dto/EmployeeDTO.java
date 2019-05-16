@@ -1,4 +1,4 @@
-package main.java.com.ipstaurus.attmng.DTO;
+package main.java.com.ipstaurus.attmng.dto;
 
 
 /*
@@ -7,6 +7,7 @@ package main.java.com.ipstaurus.attmng.DTO;
 public class EmployeeDTO {
 	private String id;
     private String password;
+
 
 	public String getId() {
 		return id;

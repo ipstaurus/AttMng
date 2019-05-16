@@ -17,16 +17,13 @@
 			<h1>ログイン</h1>
 			<table style="margin-left: auto; margin-right: auto;">
 				<tr>
-					<td><form:label path="id">ID</form:label>
+					<td><label>ID</label>
 					<td><input type="text" id="m_id" placeholder="ID"></td>
-					</td>
 
 				</tr>
 				<tr>
-					<td><form:label path="pw">パスワード</form:label>
+					<td><label>パスワード</label>
 					<td><input type="password" id="m_pw" placeholder="パスワード"></td>
-					</td>
-
 				</tr>
 				<tr>
 					<td style="margin-left: auto; margin-right: auto;"></td>

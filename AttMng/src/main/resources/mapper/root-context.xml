@@ -9,7 +9,7 @@
 		<property name="url" value="jdbc:mysql://localhost/attendance_management_system?serverTimezone=UTC" />
 		<!-- username & password 自分の物を入力 -->
 		<property name="username" value="root" />
-		<property name="password" value="1023" />
+		<property name="password" value="1234" />
 	</bean>
 
 	<bean id="sqlSession"
@@ -23,4 +23,6 @@
 		class="org.mybatis.spring.SqlSessionTemplate">
 		<constructor-arg index="0" ref="sqlSession" />
 	</bean>
+
+	<bean id="employee" class="main.java.com.ipstaurus.attmng"></bean>
 </beans>

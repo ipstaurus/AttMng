@@ -1,4 +1,4 @@
-package main.java.com.ipstaurus.attmng.Service;
+package main.java.com.ipstaurus.attmng.service;
 
 public interface LoginService {
 

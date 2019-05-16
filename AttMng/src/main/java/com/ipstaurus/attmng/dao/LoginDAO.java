@@ -1,4 +1,4 @@
-package main.java.com.ipstaurus.attmng.DAO;
+package main.java.com.ipstaurus.attmng.dao;
 
 import java.util.HashMap;
 

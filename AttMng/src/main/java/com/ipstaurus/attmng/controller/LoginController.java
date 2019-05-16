@@ -1,3 +1,4 @@
+package main.java.com.ipstaurus.attmng.controller;
 /*package main.java.com.ipstaurus.attmng.Controller;
 
 import java.util.HashMap;

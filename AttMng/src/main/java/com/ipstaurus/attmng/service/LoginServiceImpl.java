@@ -1,4 +1,4 @@
-package main.java.com.ipstaurus.attmng.Service;
+package main.java.com.ipstaurus.attmng.service;
 
 /*@Service
 public class LoginServiceImpl implements LoginService{

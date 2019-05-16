@@ -1,4 +1,4 @@
-package main.java.com.ipstaurus.attmng.Controller;
+package main.java.com.ipstaurus.attmng.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
