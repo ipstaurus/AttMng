@@ -20,6 +20,4 @@ public class EmployeeDTO {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-
 }

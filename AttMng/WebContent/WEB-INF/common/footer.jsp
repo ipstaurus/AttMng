@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 <style type="text/css">
 footer {
-   height: 10% x;
+   height: 15%;
    border: 1px solid red;
    background-color: #d5dae2;
+   margin-top:1%;
 }
 </style>
 </head>

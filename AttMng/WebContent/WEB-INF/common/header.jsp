@@ -7,8 +7,9 @@
 <title>Insert title here</title>
 <style type="text/css">
 header {
-	height: 10% x;
+	height: 10%;
 	border: 1px solid red;
+	margin-bottom:1%;
 }
 </style>
 </head>

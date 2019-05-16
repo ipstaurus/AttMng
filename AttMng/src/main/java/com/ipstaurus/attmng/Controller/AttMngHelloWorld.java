@@ -18,8 +18,8 @@ public class AttMngHelloWorld {
 	}*/
 
 	@RequestMapping("/login")
-	public String joinpage() {
-		return "login";
+	public ModelAndView loginpage() {
+		return new ModelAndView("login");
 	}
 
 	@RequestMapping("/main")
@@ -27,7 +27,7 @@ public class AttMngHelloWorld {
 		return new ModelAndView("main");
 	}
 
-	@RequestMapping("/update")
+	/*@RequestMapping("/update")
 	public ModelAndView updatepage() {
 		return new ModelAndView("update");
 	}
@@ -35,6 +35,6 @@ public class AttMngHelloWorld {
 	@RequestMapping("/user_view")
 	public ModelAndView user_viewpage() {
 		return new ModelAndView("user_view");
-	}
+	}*/
 
 }
