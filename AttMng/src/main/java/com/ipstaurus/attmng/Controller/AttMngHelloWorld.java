@@ -17,14 +17,22 @@ public class AttMngHelloWorld {
 		return new ModelAndView("login");
 	}*/
 
+	//ログイン画面
 	@RequestMapping("/login")
 	public ModelAndView loginpage() {
 		return new ModelAndView("login");
 	}
 
+	//メイン画面
 	@RequestMapping("/main")
 	public ModelAndView mainpage() {
 		return new ModelAndView("main");
+	}
+
+	//会員登録画面
+	@RequestMapping("/join")
+	public ModelAndView joinpage() {
+		return new ModelAndView("join");
 	}
 
 	/*@RequestMapping("/update")
